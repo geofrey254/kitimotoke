@@ -31,6 +31,10 @@ export default function Hero() {
         <div className="absolute inset-0 bg-gradient-to-br from-[#990000]/40 via-transparent to-transparent mix-blend-multiply"></div>
       </div>
 
+      <div className="absolute z-30 mx-auto left-0 right-0 top-1/4 text-center px-4">
+        <h2 className="text-[#feeede] text-3xl">Kitimoto Steak</h2>
+      </div>
+
       {/* Floating decorative elements */}
       <div className="absolute top-20 right-20 w-32 h-32 bg-[#feeede]/5 rounded-full blur-3xl animate-pulse"></div>
       <div className="absolute bottom-40 left-20 w-40 h-40 bg-[#990000]/10 rounded-full blur-3xl animate-pulse delay-700"></div>
